@@ -1,0 +1,68 @@
+ul {
+list-style-type: none;
+}
+
+section {
+  border:1px solid black;
+  margin:5px;
+}
+
+.hide {
+  display: none;
+}
+
+
+body {
+  color: white;
+  background-color: black;
+  padding: 20, 20, 20, 20px;
+  text-align: center;
+  font-family: Luminari, fantasy;
+  font-size: 30px;
+  
+}
+
+div {
+   position: relative;
+    display: inline-block;
+}
+div1 {
+  color:green;
+  
+  /*supposed to be the multiple choice box but for some reason not editing??*/
+}
+
+.button {
+
+	font-family: Luminari, fantasy;
+	box-sizing: border-box;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: calc(50% - 22px);
+	left: 0%;
+	width: 100%;
+	text-align: center;
+	display: block;
+	box-shadow: none;
+	appearance: none;
+	border: 0;
+	outline: 0;
+	background-color: rgb(0, 240, 168);
+	height: 45px;
+	line-height: 42px;
+	padding: 0 30px;
+	font-size: 20px;
+	border-radius: 30px;
+	color: rgb(40, 45, 50);
+	cursor: pointer;
+	transition: all .5s;
+	transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+	user-select: none;
+	
+}
+
+a {
+  color: #db3da6;
+}
